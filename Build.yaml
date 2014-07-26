@@ -1,0 +1,10 @@
+onejar: MultiPortJetty
+
+
+resources: 
+- LICENSE
+
+classpath:
+- ../LiteSoftServerUtils/libs|servlet*.jar
+- libs|**.jar
+
