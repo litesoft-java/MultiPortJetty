@@ -8,6 +8,9 @@ import org.eclipse.jetty.servlet.*;
 import java.sql.*;
 import java.util.*;
 
+/**
+ * A class that wraps up a number of Jetty Embedded Servers so you can run multiple ports, like: a http to https redirector AND a https server...
+ */
 public final class EmbeddedJetty {
     private Server[] mServers;
 
